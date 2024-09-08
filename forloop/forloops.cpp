@@ -1,17 +1,13 @@
 #include <iostream>
-
 #include <string>
 
 using namespace std;
 
+
+
 int main() {
-    int number;
-    cin >> number;
-
-    for (int i = 0; i <= 10; i++) {
-        cout << "i is " << i << endl;
-        cin >> number;
+        for (int i = 10; i>= 0; i-=1) {
+        cout << i << " "<<endl;
     }
-
     return 0;
 }
