@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <array>
-
+#include "arrayVsVector.h"
 int main(){
     int array[3]={1,2,3};
     std::cout<<"Array";
