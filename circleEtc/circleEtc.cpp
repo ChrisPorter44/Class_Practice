@@ -50,7 +50,7 @@ class Triangle : public Shape{
             in>>base>>height;
         
         double area()const{
-                return 1/3*base*height
+                return .5 * base * height;
         
         void display(std::ostream out)const{
             out<<"Triangle with a base of "<<base<<" and height"<<height;
