@@ -8,6 +8,7 @@ struct Product {
 
     Product(std::string name, double price) : name(name),price(price){}
 };
+
 int forward();
 int main(){
 
